@@ -159,3 +159,5 @@ def listCollisions(M,x,v,m,T):
         else: #Invalid collision
             continue #Move ahead to the next possible collision in the heap
     return answer # Return the Output List
+
+listCollisions([1.0, 1.0, 1.0, 1.0], [-2.0, -1.0, 1.0, 2.0], [0.0, -1.0, 1.0, 0.0], 5,5.0)
